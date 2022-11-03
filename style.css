@@ -86,39 +86,25 @@ main {
 .step-box {
   width: 90%;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   position: relative;
+  justify-content: center;
   background-color: #eee;
 }  
 
 .step-box:last-child {
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 } 
 
 .step-box:farst-child {
   margin-top: 50px;
 }
 
-.step-img1 {
-  height: 150px;
-  background-image: url(img/flow01.png);
-  background-position: bottom;
-  background-size: cover;
-}
 
-.step-img2 {
-  height: 150px;
-  background-image: url(img/flow02.png);
-  background-position: bottom;
-  background-size: cover
-  
-}
-
-.step-img3 {
-  height: 150px;
-  background-image: url(img/flow03.png);
-  background-position:  bottom;
-  background-size: cover;
 }
 
 .footer {
@@ -126,4 +112,4 @@ main {
   height: 50px;
 }
   
-} 
+
